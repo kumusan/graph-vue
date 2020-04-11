@@ -26,18 +26,21 @@
 
     <v-content>
       <Index />
+      <CustomerTable />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import Index from "./components/index";
+import CustomerTable from "./components/CustomerTable";
 
 export default {
   name: "App",
 
   components: {
-    Index
+    Index,
+    CustomerTable
   }
 };
 </script>
